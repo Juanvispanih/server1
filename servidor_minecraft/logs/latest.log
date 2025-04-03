@@ -58,3 +58,43 @@
 [11:11:32] [Server thread/INFO]: JuanviNormal joined the game
 [11:11:32] [Server thread/INFO]: JuanviNormal[/127.45.106.168:51235] logged in with entity id 799 at ([world]5.973784157935996, 83.0, -9.35791149650564)
 [11:11:50] [Server thread/INFO]: Made JuanviNormal a server operator
+[11:19:24] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[11:19:29] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[11:19:29] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[11:19:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:19:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:19:29] [Server thread/INFO]: Loaded 1174 recipes
+[11:19:30] [Server thread/INFO]: Loaded 1271 advancements
+[11:19:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:19:30] [Server thread/INFO]: CONSOLE: Reload complete.
+[11:19:30] [Server thread/INFO]: Timings Reset
+[11:19:55] [Server thread/INFO]: JuanviNormal issued server command: /gamemode creative
+[11:19:55] [Server thread/INFO]: [JuanviNormal: Set own game mode to Creative Mode]
+[11:20:47] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[11:20:47] [Server thread/INFO]: JuanviNormal lost connection: Server is restarting
+[11:20:47] [Server thread/INFO]: JuanviNormal left the game
+[11:20:47] [Server thread/INFO]: Stopping server
+[11:20:47] [Server thread/INFO]: Saving players
+[11:20:47] [Server thread/INFO]: Saving worlds
+[11:20:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:20:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:20:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:20:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:20:49] [Server thread/INFO]: [ChunkHolderManager] Saved 1814 block chunks, 239 entity chunks, 0 poi chunks in world 'world' in 1.87s
+[11:20:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:20:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:20:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:20:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:20:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:20:50] [Server thread/INFO]: [ChunkHolderManager] Saved 1498 block chunks, 16 entity chunks, 0 poi chunks in world 'world_nether' in 0.66s
+[11:20:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:20:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:20:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:20:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:20:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:20:51] [Server thread/INFO]: [ChunkHolderManager] Saved 1496 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.53s
+[11:20:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:20:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:20:51] [Server thread/INFO]: Flushing Chunk IO
+[11:20:51] [Server thread/INFO]: Closing Thread Pool
+[11:20:51] [Server thread/INFO]: Closing Server
