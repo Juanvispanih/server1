@@ -1,67 +1,62 @@
-[11:58:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:58:25] [ServerMain/INFO]: Loaded 1174 recipes
-[11:58:26] [ServerMain/INFO]: Loaded 1271 advancements
-[11:58:26] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[11:58:26] [Server thread/INFO]: Loading properties
-[11:58:26] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[11:58:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:58:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:58:28] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[12:46:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:46:57] [ServerMain/INFO]: Loaded 1174 recipes
+[12:46:58] [ServerMain/INFO]: Loaded 1271 advancements
+[12:46:58] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[12:46:58] [Server thread/INFO]: Loading properties
+[12:46:58] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[12:47:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:47:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:47:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[11:58:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[11:58:29] [Server thread/INFO]: Default game type: SURVIVAL
-[11:58:29] [Server thread/INFO]: Generating keypair
-[11:58:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:58:29] [Server thread/INFO]: Using epoll channel type
-[11:58:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:58:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:58:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:58:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:58:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:58:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:58:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:58:29] [Server thread/INFO]: Preparing level "world"
-[11:58:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:58:32] [Server thread/INFO]: Time elapsed: 2070 ms
-[11:58:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:58:32] [Server thread/INFO]: Time elapsed: 169 ms
-[11:58:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:58:32] [Server thread/INFO]: Time elapsed: 100 ms
-[11:58:32] [Server thread/INFO]: Running delayed init tasks
-[11:58:32] [Server thread/INFO]: Done (6.415s)! For help, type "help"
-[11:58:32] [Server thread/INFO]: Timings Reset
-[11:58:46] [User Authenticator #0/INFO]: UUID of player JuanviNormal is 1597d188-b3e0-3f10-bcd0-4e787e241d15
-[11:58:47] [Server thread/INFO]: JuanviNormal joined the game
-[11:58:47] [Server thread/INFO]: JuanviNormal[/127.45.106.168:53047] logged in with entity id 232 at ([world]-1.8001109853259532, 109.89230623619808, 10.668385887302675)
-[11:58:54] [Server thread/INFO]: JuanviNormal issued server command: /plugins
-[11:59:40] [Server thread/INFO]: JuanviNormal issued server command: /gamemode creative
-[11:59:40] [Server thread/INFO]: [JuanviNormal: Set own game mode to Creative Mode]
-[12:00:41] [Server thread/INFO]: Stopping the server
-[12:00:41] [Server thread/INFO]: Stopping server
-[12:00:41] [Server thread/INFO]: Saving players
-[12:00:41] [Server thread/INFO]: JuanviNormal lost connection: Server closed
-[12:00:41] [Server thread/INFO]: JuanviNormal left the game
-[12:00:41] [Server thread/INFO]: Saving worlds
-[12:00:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:00:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:00:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:00:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:00:44] [Server thread/INFO]: [ChunkHolderManager] Saved 772 block chunks, 772 entity chunks, 0 poi chunks in world 'world' in 2.54s
-[12:00:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:00:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:00:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:00:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:00:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:00:44] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.78s
-[12:00:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:00:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:00:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:00:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:00:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:00:45] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.41s
-[12:00:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:00:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:00:45] [Server thread/INFO]: Flushing Chunk IO
-[12:00:45] [Server thread/INFO]: Closing Thread Pool
-[12:00:45] [Server thread/INFO]: Closing Server
+[12:47:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:47:01] [Server thread/INFO]: Default game type: SURVIVAL
+[12:47:01] [Server thread/INFO]: Generating keypair
+[12:47:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:47:01] [Server thread/INFO]: Using epoll channel type
+[12:47:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:47:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:47:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:47:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:47:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:47:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:47:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:47:01] [Server thread/INFO]: Preparing level "world"
+[12:47:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:47:02] [Server thread/INFO]: Time elapsed: 376 ms
+[12:47:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:47:04] [Server thread/INFO]: Time elapsed: 1768 ms
+[12:47:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:47:04] [Server thread/INFO]: Time elapsed: 227 ms
+[12:47:04] [Server thread/INFO]: Running delayed init tasks
+[12:47:04] [Server thread/INFO]: Done (6.417s)! For help, type "help"
+[12:47:04] [Server thread/INFO]: Timings Reset
+[12:47:24] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[12:47:27] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[12:47:27] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[12:47:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:47:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:47:28] [Server thread/INFO]: Loaded 1174 recipes
+[12:47:28] [Server thread/INFO]: Loaded 1271 advancements
+[12:47:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:47:29] [Server thread/INFO]: CONSOLE: Reload complete.
+[12:47:29] [Server thread/INFO]: Timings Reset
+[12:47:32] [User Authenticator #0/INFO]: UUID of player JuanviNormal is 1597d188-b3e0-3f10-bcd0-4e787e241d15
+[12:47:33] [Server thread/INFO]: JuanviNormal joined the game
+[12:47:33] [Server thread/INFO]: JuanviNormal[/127.45.106.168:60417] logged in with entity id 239 at ([world]12.73337633002443, 113.0, 13.581087212145425)
+[12:48:35] [Server thread/INFO]: JuanviNormal issued server command: /gamemode survival
+[12:48:35] [Server thread/INFO]: [JuanviNormal: Set own game mode to Survival Mode]
+[12:50:03] [Server thread/INFO]: JuanviNormal issued server command: /gamemode creative
+[12:50:03] [Server thread/INFO]: [JuanviNormal: Set own game mode to Creative Mode]
+[12:50:34] [Server thread/INFO]: JuanviNormal issued server command: /gamemode survival
+[12:50:34] [Server thread/INFO]: [JuanviNormal: Set own game mode to Survival Mode]
+[12:52:09] [Server thread/INFO]: JuanviNormal issued server command: /gamemode spectator
+[12:52:09] [Server thread/INFO]: [JuanviNormal: Set own game mode to Spectator Mode]
+[12:52:11] [Server thread/INFO]: JuanviNormal issued server command: /gamemode survival
+[12:52:11] [Server thread/INFO]: [JuanviNormal: Set own game mode to Survival Mode]
+[12:52:18] [Server thread/INFO]: JuanviNormal issued server command: /gamemode spectator
+[12:52:18] [Server thread/INFO]: [JuanviNormal: Set own game mode to Spectator Mode]
+[12:52:19] [Server thread/INFO]: JuanviNormal issued server command: /gamemode survival
+[12:52:19] [Server thread/INFO]: [JuanviNormal: Set own game mode to Survival Mode]
+[12:55:55] [Server thread/INFO]: JuanviNormal lost connection: Disconnected
+[12:55:55] [Server thread/INFO]: JuanviNormal left the game
